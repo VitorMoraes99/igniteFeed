@@ -32,6 +32,20 @@ const posts = [
       {type: 'link', content: 'jane.design/doctorcare'},
     ],
     publishedAt: new Date('2024-12-26 16:30:00')
+  },
+  {
+    id: 3,
+    author: {
+      avatarUrl: 'https://avatars.githubusercontent.com/u/121506301?v=4',
+      name: 'Cristiano Ronaldo',
+      role: 'Melhor da Historia'
+    },
+    content: [
+      {type: 'paragraph', content: 'Chupa Messi👋'} ,
+      {type: 'paragraph', content: 'Sou o jogador com mais gols da historia do futebol'},
+      {type: 'link', content: 'jane.design/doctorcare'},
+    ],
+    publishedAt: new Date('2024-12-28 15:30:00')
   }
 ]
 
